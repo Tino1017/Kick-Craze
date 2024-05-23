@@ -7,7 +7,7 @@ const Landing = () => {
   return (
     <div className='bg-gradient-to-b from-primary to-secondary h-screen '> 
       <ResponsiveNav/>
-        <Navigation/>
+        {/* <Navigation/> */}
         <Hero/>
     </div>
   )
