@@ -38,7 +38,7 @@ export const Hero = () => {
           SHOP NOW
         </button>
       </div>
-      <div className=" flex justify-center items-center absolute z-0 top-[85px] sm:hidden">
+      <div className=" flex justify-center items-center absolute z-0 top-[75px] sm:hidden">
         <img src={nike} alt="" className="opacity-95" />
       </div>
       <div
@@ -46,7 +46,7 @@ export const Hero = () => {
           isHovered ? "animate-bounce" : "animate-none"
         } hidden md:block`}
       >
-        <img src={nike} alt="" />
+       
       </div>
     </div>
   );
